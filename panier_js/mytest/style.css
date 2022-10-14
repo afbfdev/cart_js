@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    color: rebeccapurple;
+    font-size: large;
+}
+
+.panier {
+    display: grid;
+    gap: 10px;
+}
+
+
+.item1 {
+    display: flex;
+    border: 1Px solid gray;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+
+.item2 {
+    display: flex;
+    border: 1Px solid gray;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+
+.item3 {
+    display: flex;
+    border: 1Px solid gray;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+
+.hea {
+    margin-bottom: 35px;
+}
+
+h2, p, .delete {
+    align-self: center;
+    font-weight: 100;
+}
+
+.del{
+    cursor: pointer;
+}
+
+
+.info {
+    align-self: center;
+
+}
+
+.btn-moins, .btn-plus {
+    border: 1px solid rgba (231, 65, 43, 0.178);
+    background-color: white;
+    color : rgb(231, 65, 43);
+    cursor: pointer;
+
+}
+
+input {
+    width: 10%;
+    text-align: center;
+}
+
+#total {
+    text-align: center;
+    text-decoration: underline;
+}
