@@ -62,9 +62,16 @@ for (let i = 0; i < supp.length; i++) {
 
 var heart = document.querySelectorAll('.material-symbols-sharp');
 for(let i = 0; i < heart.length; i++) {
+    let countLike = 0;
 heart[i].addEventListener('click', function(){
-    
-    heart[i].style.color = "red";
+    if (countLike === 0) {
+        heart[i].style.color = "red";
+        countLike[i] = 1;
+    } else {
+        countLike[i]  = 0;
+        heart[i].style.color = "black";
+        
+    }
 })
 }
 
