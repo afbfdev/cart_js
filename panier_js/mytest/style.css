@@ -36,6 +36,11 @@ h1 {
  margin-top: 2.4rem;
  cursor: pointer;
 }
+.material-symbols-sharp:hover {
+    color: red;
+    transform: scale(1);
+}
+
 
 h2, p, .delete {
     align-self: center;
