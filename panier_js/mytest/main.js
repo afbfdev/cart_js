@@ -60,11 +60,11 @@ for (let i = 0; i < supp.length; i++) {
  
 //heart style image
 
-var heart = document.querySelectorAll('.hea');
+var heart = document.querySelectorAll('.material-symbols-sharp');
 for(let i = 0; i < heart.length; i++) {
 heart[i].addEventListener('click', function(){
     
-    heart[i].style.backgroundColor = "red";
+    heart[i].style.color = "red";
 })
 }
 
