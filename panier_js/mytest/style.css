@@ -31,8 +31,10 @@ h1 {
     padding-top: 2px;
 }
 
-.hea {
-    margin-bottom: 35px;
+.material-symbols-sharp {
+ float: left;
+ margin-top: 2.4rem;
+ cursor: pointer;
 }
 
 h2, p, .delete {
